@@ -1,0 +1,15 @@
+.container-flex {
+  display: flex;
+  flex-direction: row;
+}
+.card {
+  border: 3px dashed green;
+  width: 25%;
+  height: 500px;
+  margin: 8%;
+  align-items: center;
+  img {
+    margin-top: 25%;
+    width: 60%;
+  }
+}
