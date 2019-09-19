@@ -1,16 +1,15 @@
-import {Injectable} from '@angular/core';
-import {Observable} from 'rxjs';
-import {catchError} from 'rxjs/operators';
-import {API_URL} from '../../environments/environment';
-import {HttpClient} from '@angular/common/http';
+import { Injectable } from '@angular/core';
+import { Observable } from 'rxjs';
+import { API_URL } from '../../environments/environment';
+import { HttpClient } from '@angular/common/http';
 
 @Injectable({
-  providedIn: 'root'
+    providedIn: 'root'
 })
 export class ApiService {
 
-  constructor(private api: HttpClient) {
-  }
+    constructor(private api: HttpClient) {
+    }
 
 
     http(parametro): Observable<any> {

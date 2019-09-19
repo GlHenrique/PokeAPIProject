@@ -1,15 +1,23 @@
 .container-flex {
-  display: flex;
-  flex-direction: row;
+    display: flex;
 }
+
 .card {
-  border: 3px dashed green;
-  width: 25%;
-  height: 500px;
-  margin: 8%;
-  align-items: center;
-  img {
-    margin-top: 25%;
-    width: 60%;
-  }
+    border: 3px dashed green;
+    border-radius: 3%;
+    width: 25%;
+    height: 500px;
+    margin: 8%;
+    align-items: center;
+
+    #pikachu {
+        margin-top: 25%;
+        width: 60%;
+    }
+    #pokeball {
+        background-image: url("/assets/other/pokeball.png");
+        background-repeat: no-repeat;
+        width: 45%;
+    }
 }
+
