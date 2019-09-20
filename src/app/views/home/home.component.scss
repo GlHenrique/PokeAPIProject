@@ -1,23 +1,14 @@
-.container-flex {
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans&display=swap'); /* font-family: 'Fira Sans', sans-serif; */
+
+.flex {
+    margin-top: 20%;
     display: flex;
-}
-
-.card {
-    border: 3px dashed green;
-    border-radius: 3%;
-    width: 25%;
-    height: 500px;
-    margin: 8%;
+    justify-content: center;
+    flex-direction: column;
     align-items: center;
-
-    #pikachu {
-        margin-top: 25%;
-        width: 60%;
-    }
-    #pokeball {
-        background-image: url("/assets/other/pokeball.png");
-        background-repeat: no-repeat;
-        width: 45%;
+    a {
+        color: white;
+        font-size: 30px;
     }
 }
 

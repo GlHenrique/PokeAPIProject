@@ -1,0 +1,27 @@
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    background: url(background.png) no-repeat center center;
+    bottom: 0;
+    color: black;
+    left: 0;
+    overflow: auto;
+    padding: 3em;
+    right: 0;
+    text-align: center;
+    height: 80.000006vh;
+    top: 0;
+    background-size: cover;
+}
+
+.card {
+    width: 150px;
+    height: 100px;
+    border-radius: 3px;
+    background-color: white;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    margin: 1%;
+    padding: 1%;
+}
